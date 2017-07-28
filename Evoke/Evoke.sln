@@ -1,0 +1,70 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Evoke.Smartvoke.Api", "Evoke.Smartvoke.Api\Evoke.Smartvoke.Api.csproj", "{90619759-861D-44C8-9120-40EFEB3F4139}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03 Evoke.Smartvoke.Services", "03 Evoke.Smartvoke.Services", "{29340947-2F0C-4EA7-AB9D-B618AEEF4FAC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01 Evoke.Smartvoke.Data", "01 Evoke.Smartvoke.Data", "{22A91056-3155-4563-81B1-0AFAF1F6C02C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "00 Evoke.Smartvoke.Common", "00 Evoke.Smartvoke.Common", "{AF05A530-4476-4CBD-8324-13C3C792AD27}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Evoke.Smartvoke.DataObjects", "Evoke.Smartvoke.DataObjects\Evoke.Smartvoke.DataObjects.csproj", "{75FE9124-A52B-452F-B55D-C33E5EE8A9E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Evoke.Smartvoke.DataProvider", "Evoke.Smartvoke.DataProvider\Evoke.Smartvoke.DataProvider.csproj", "{3CA758BF-1060-4365-B025-998B7291E86A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Evoke.Smartvoke.Logger", "Evoke.Smartvoke.Logger\Evoke.Smartvoke.Logger.csproj", "{E53FFAE1-3251-4ED3-A957-C6DF4A3E741B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02 Evoke.Smartvoke.Business", "02 Evoke.Smartvoke.Business", "{495ADBFE-1EF5-4374-AA9B-AF9A9D3707DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Evoke.Smartvoke.Business", "Evoke.Smartvoke.Business\Evoke.Smartvoke.Business.csproj", "{DAC3B3F6-2B92-4101-912B-4D242C8B501D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04 Evoke.Smartvoke.WebApp", "04 Evoke.Smartvoke.WebApp", "{A70E0A54-56A4-41DD-B6F1-3FADB011239E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Evoke.Smartvoke.WebApp", "Evoke.Smartvoke.WebApp\Evoke.Smartvoke.WebApp.csproj", "{13392E39-E337-4D81-A41C-CEA745A71A88}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{90619759-861D-44C8-9120-40EFEB3F4139}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90619759-861D-44C8-9120-40EFEB3F4139}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90619759-861D-44C8-9120-40EFEB3F4139}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90619759-861D-44C8-9120-40EFEB3F4139}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75FE9124-A52B-452F-B55D-C33E5EE8A9E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75FE9124-A52B-452F-B55D-C33E5EE8A9E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75FE9124-A52B-452F-B55D-C33E5EE8A9E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75FE9124-A52B-452F-B55D-C33E5EE8A9E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3CA758BF-1060-4365-B025-998B7291E86A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CA758BF-1060-4365-B025-998B7291E86A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CA758BF-1060-4365-B025-998B7291E86A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CA758BF-1060-4365-B025-998B7291E86A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E53FFAE1-3251-4ED3-A957-C6DF4A3E741B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E53FFAE1-3251-4ED3-A957-C6DF4A3E741B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E53FFAE1-3251-4ED3-A957-C6DF4A3E741B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E53FFAE1-3251-4ED3-A957-C6DF4A3E741B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DAC3B3F6-2B92-4101-912B-4D242C8B501D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAC3B3F6-2B92-4101-912B-4D242C8B501D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAC3B3F6-2B92-4101-912B-4D242C8B501D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAC3B3F6-2B92-4101-912B-4D242C8B501D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13392E39-E337-4D81-A41C-CEA745A71A88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13392E39-E337-4D81-A41C-CEA745A71A88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13392E39-E337-4D81-A41C-CEA745A71A88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13392E39-E337-4D81-A41C-CEA745A71A88}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{90619759-861D-44C8-9120-40EFEB3F4139} = {29340947-2F0C-4EA7-AB9D-B618AEEF4FAC}
+		{75FE9124-A52B-452F-B55D-C33E5EE8A9E8} = {22A91056-3155-4563-81B1-0AFAF1F6C02C}
+		{3CA758BF-1060-4365-B025-998B7291E86A} = {22A91056-3155-4563-81B1-0AFAF1F6C02C}
+		{E53FFAE1-3251-4ED3-A957-C6DF4A3E741B} = {AF05A530-4476-4CBD-8324-13C3C792AD27}
+		{DAC3B3F6-2B92-4101-912B-4D242C8B501D} = {495ADBFE-1EF5-4374-AA9B-AF9A9D3707DC}
+		{13392E39-E337-4D81-A41C-CEA745A71A88} = {A70E0A54-56A4-41DD-B6F1-3FADB011239E}
+	EndGlobalSection
+EndGlobal
